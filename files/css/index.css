@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    background-image: linear-gradient(to right, #9090d1, #ffffff);
+    
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid rgba(179, 165, 165, 0.534);
+    border-radius:  20px;
+    width: 80%;
+    height: 90px;
+    box-shadow: 5px 5px 5px rgb(136, 134, 134);
+    background-color: white;
+    min-width: 200px;
+    
+}
+/* .flex-item:hover{
+    margin-left: 50px; 
+} */
+p{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+#alta_touch_img{
+    width: 100px;
+    height: 80px;
+}
+#mesa_img{
+    width: 90px;
+    height: 80px;
+    
+}
+footer p{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 40px ;
+    line-height: 40px;
+    font-size: 20px;
+}

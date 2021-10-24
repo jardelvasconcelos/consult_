@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+*{      
+    box-sizing: border-box;
+    font-family: 'Gemunu Libre', sans-serif;      
+}
+body{
+    margin: 0px;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 30px auto;    
+}
+.header-flex-start{
+    margin: 0px;
+    padding: 0px;
+}
+.flex-start{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: flex-start;
+    width: 100%;
+    background-image: linear-gradient(to right, #9090d1, #ffffff);
+
+}
+@media only screen and (min-whidth: 500px ){
+    .container{
+        display: none;
+    }
+}
+#img-home{
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+}
+h2,h3,#empty{
+    background-image: linear-gradient(to right, #9090d1, #ffffff);  
+    font-size: 30px;
+    padding-left: 10px;
+    
+   
+}
+h1{
+    margin-left: 20px;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px white;
+}
+.full_img{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.img_icon_touch{
+    width: 300px;
+    height: 234px;
+}
+.img_icon{
+    width: 230px;
+    height: 234px;
+}
+.img_icon_mesa{
+    width: 250px;
+    height: 234px;
+}
+.foam_item{
+    width: 87px;
+    height: 155px;
+}
+.mesa_item{
+    width: 146px;
+    height: 156px;
+}
+p{
+    text-align: justify;
+    line-height: 25px;
+    margin: 16px 10px 16px 10px;
+    /* font-size: 20px; */
+    
+}
+.table_blue_series{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,th, td { 
+    border: 1px solid black;
+
+}
+
+.flex_img{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+.coment-alt-touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+img{
+    padding: 5px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    height: 80px ;
+    font-size: 20px;
+    padding-top: 15px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+@media screen and (max-width: 320px){
+    p,img,figcaption{
+        margin-left: 60px;
+}
+}
+figcaption{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+
+
+
