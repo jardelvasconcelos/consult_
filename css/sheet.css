@@ -22,7 +22,7 @@ body{
     flex-direction: row;
     align-content: flex-start;
     width: 100%;
-    background-image: linear-gradient(to right, #9090d1, #ffffff);
+    background-image: linear-gradient(to right, #3434ca, #ffffff);
 
 }
 @media only screen and (min-whidth: 500px ){
@@ -36,7 +36,7 @@ body{
     margin-top: 25px;
 }
 h2,h3,#empty{
-    background-image: linear-gradient(to right, #9090d1, #ffffff);  
+    background-image: linear-gradient(to right, #3434ca, #ffffff);  
     font-size: 30px;
     padding-left: 10px;
     
