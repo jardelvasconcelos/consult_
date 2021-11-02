@@ -10,9 +10,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 170vh;
     background-color: white;
     background-image: linear-gradient(to right, #9090d1, #ffffff);
     
@@ -40,6 +40,9 @@ p{
     font-size: 35px;
     font-weight: bold;
 
+}
+.editor_p{
+    font-size: 25px;
 }
 img{
     width: 80px;
