@@ -107,6 +107,15 @@ table,th, td {
 img{
     padding: 5px;
 }
+.links{
+    list-style: none;
+}
+.links a{
+    text-decoration: none;
+    font-size: 20px;   
+    letter-spacing: 2px;
+}
+
 footer p{
     text-align: center;
     color: white;
