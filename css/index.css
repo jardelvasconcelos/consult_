@@ -12,7 +12,6 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 140vh;
     background-color: white;
     background-image: linear-gradient(to right, #9090d1, #ffffff);
     
@@ -24,22 +23,18 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
     border: 1px solid rgba(179, 165, 165, 0.534);
     border-radius:  20px;
     width: 80%;
     height: 90px;
     box-shadow: 5px 5px 5px rgb(136, 134, 134);
     background-color: white;
-    min-width: 200px;
-    
+    min-width: 200px; 
 }
-/* .flex-item:hover{
-    margin-left: 50px; 
-} */
 p{
     font-size: 35px;
     font-weight: bold;
-
 }
 img{
     width: 80px;
@@ -53,6 +48,9 @@ img{
     width: 90px;
     height: 80px;
     
+}
+.editor_p{
+    font-size: 20px;
 }
 footer p{
     text-align: center;
