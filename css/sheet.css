@@ -12,6 +12,11 @@ body{
     max-width: 1024px;
     margin: 30px auto;    
 }
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
 .header-flex-start{
     margin: 0px;
     padding: 0px;
@@ -50,8 +55,7 @@ h1{
 .full_img{
     display: flex;
     justify-content: center;
-    
-    
+    padding-top: 90px;  
 }
 .img_icon_touch{
     width: 300px;
