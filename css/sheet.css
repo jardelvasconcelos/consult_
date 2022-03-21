@@ -27,7 +27,7 @@ header{
     flex-direction: row;
     align-content: flex-start;
     width: 100%;
-    background-image: linear-gradient(to right, #3434ca, #ffffff);
+    background-image: linear-gradient(to right, #c9431a, #ffffff);
 
 }
 @media only screen and (min-whidth: 500px ){
