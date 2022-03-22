@@ -44,13 +44,6 @@ h2,h3,#empty{
     background-image: linear-gradient(to right, #c9431a, #ffffff);  
     font-size: 30px;
     padding-left: 10px;
-    
-   
-}
-h1{
-    margin-left: 20px;
-    font-size: 40px;
-    text-shadow: 1px 1px 3px white;
 }
 .full_img{
     display: flex;
