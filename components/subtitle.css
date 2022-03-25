@@ -3,5 +3,6 @@
     font-size: 30px;
     padding-left: 10px;
     text-shadow: 1px 1px 3px white;
+    padding-left: 20px;
     background-image: linear-gradient(to right, #c9431a, #ffffff);
 }

@@ -1,6 +1,6 @@
 /* CSS referente aos componentes <h1> */
 .title{
-    margin-left: 20px;
+    padding-left: 20px;
     font-size: 40px;
     text-shadow: 1px 1px 3px white;
 }
