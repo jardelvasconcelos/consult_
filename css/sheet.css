@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
 
+:root{
+    --cor1: #c9431a;
+    --cor2: #ffffff;
+    --cor3: #000000;
+    --cor4: #42414159;
+    --cor5: #e2e1e1;
+
+}
 *{      
     box-sizing: border-box;
     font-family: 'Gemunu Libre', sans-serif; 
-    
 }
 body{
     margin: 0px;
 }
-
 .container{
     max-width: 1024px;
     margin: 30px auto;    
@@ -28,8 +34,7 @@ header{
     flex-direction: row;
     align-content: flex-start;
     width: 100%;
-    background-image: linear-gradient(to right, #c9431a, #ffffff);
-
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
 }
 @media only screen and (min-whidth: 500px ){
     .container{
@@ -42,7 +47,7 @@ header{
     margin-top: 25px;
 }
 h3{
-    background-image: linear-gradient(to right, #c9431a, #ffffff);  
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));  
     font-size: 30px;
     padding-left: 10px;
 }
@@ -77,17 +82,14 @@ h3{
     border-collapse: collapse;
 }
 
-table,th, td { 
-    border: 1px solid black;
-
+table,th, td{ 
+    border: 1px solid var(--cor3);
 }
-
 .flex_img{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 .coment-alt-touch{
     display: flex;
@@ -108,7 +110,7 @@ img{
     line-height: 30px;  
 }
 footer{
-    background-color: rgba(66, 65, 65, 0.349);
+    background-color: var(--cor4);
     width: 100%;
     height: 150px;
     margin-top: 100px;
@@ -117,13 +119,11 @@ footer{
 }
 @media screen and (max-width: 320px){
     p,img,figcaption{
-        margin-left: 60px;
-}
+        margin-left: 60px;}
 }
 figcaption{
     text-align: center;
     font-weight: bold;
-
 }
 #construct{
     text-align: center;
