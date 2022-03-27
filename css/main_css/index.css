@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+:root{
+    --cor1: #c9431a;
+    --cor2: #ffffff;
+    --cor3: #000000;
+    --cor4: #42414159;
+    --cor5: #e2e1e1;
+    --cor6: #b3a5a588;
+    --cor7: #888686;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--cor2);
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid var(--cor6);
+    border-radius:  20px;
+    width: 80%;
+    height: 90px;
+    box-shadow: 5px 5px 5px var(--cor7);
+    background-color: var(--cor2);
+    min-width: 200px; 
+}
+p{
+    font-size: 35px;
+    font-weight: bold;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+#alta_touch_img{
+    width: 100px;
+    height: 80px;
+}
+#mesa_img{
+    width: 90px;
+    height: 80px;
+    
+}
+.editor_p{
+    font-size: 20px;
+}
