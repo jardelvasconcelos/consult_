@@ -144,6 +144,36 @@ figcaption{
     justify-content: center;
     align-content: center;
 }
+@media screen and (max-width: 600px){
+    .image_start img {
+        width: 500px;
+        height: 578px;
+    }
+}
+@media screen and (max-width: 500px){
+    .image_start img {
+        width: 400px;
+        height: 478px;
+    }
+}
+@media screen and (max-width: 400px){
+    .image_start img {
+        width: 300px;
+        height: 378px;
+    }
+}
+@media screen and (max-width: 300px){
+    .image_start img {
+        width: 200px;
+        height: 278px;
+    }
+}
+@media screen and (max-width: 200px){
+    .image_start img {
+        width: 100px;
+        height: 178px;
+    }
+}
 
 
 
