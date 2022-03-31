@@ -144,18 +144,17 @@ figcaption{
     width: 600px;
     height: 678px ;
 }
-.image_size_vista_bomba{
+.image_size_vista_bomba , .image_size_vista_gas {
     margin-top: 100px;
     width: 660px;
     height: 492px;
 }
-.image_start , .image_start_bomba{
+.image_start , .image_start_bomba , .image_start_gas{
     height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
 }
-
 
 /* RESPONSIVO PAINEL PRINCIPAL */
 @media screen and (max-width: 600px){
@@ -221,6 +220,37 @@ figcaption{
     }
 }
 
+/* RESPONSIVO PAINEL DO GÁS */
+@media screen and (max-width: 660px){
+    .image_start_bomba img {
+        width: 560px;
+        height: 392px;
+    }
+}
+@media screen and (max-width: 560px){
+    .image_start_bomba img {
+        width: 460px;
+        height: 392px;
+    }
+}
+@media screen and (max-width: 460px){
+    .image_start_bomba img {
+        width: 360px;
+        height: 392px;
+    }
+}
+@media screen and (max-width: 360px){
+    .image_start_bomba img {
+        width: 260px;
+        height: 392px;
+    }
+}
+@media screen and (max-width: 260px){
+    .image_start_bomba img {
+        width: 160px;
+        height: 392px;
+    }
+}
 
 
 
