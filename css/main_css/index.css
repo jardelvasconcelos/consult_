@@ -22,8 +22,10 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: var(--cor2);
-    background-image: linear-gradient(to right, var(--cor1), var(--cor2));
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2)); 
+}
+.flex-container a{
+    text-decoration: none;
     
 }
 
@@ -45,6 +47,7 @@
 p{
     font-size: 35px;
     font-weight: bold;
+    color: var(--cor3);
 }
 img{
     width: 80px;
