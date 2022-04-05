@@ -189,7 +189,7 @@ figcaption{
 }
 
 /* RESPONSIVO PAINEL DA BOMBA */
-@media screen and (max-width: 660px){
+/* @media screen and (max-width: 660px){
     .image_start_bomba img {
         width: 560px;
         height: 392px;
@@ -218,10 +218,10 @@ figcaption{
         width: 160px;
         height: 392px;
     }
-}
+} */
 
 /* RESPONSIVO PAINEL DO GÁS */
-@media screen and (max-width: 660px){
+/* @media screen and (max-width: 660px){
     .image_start_bomba img {
         width: 560px;
         height: 392px;
@@ -250,7 +250,12 @@ figcaption{
         width: 160px;
         height: 392px;
     }
+} */
+.image_size_vista_gas, .image_size_vista_bomba{
+    max-width: 100%;
+    height: auto;
 }
+
 
 
 
