@@ -12,6 +12,7 @@ main{
     max-width: 430px;
     margin: 30px auto;
     height: 100%;  
+   
 }
 form{
     display: flex;
@@ -19,6 +20,15 @@ form{
     width: 100%;
     font-family: sans-serif;
     padding: 16px 0; 
+}
+@media screen and (max-width: 1023px){
+    main{
+        border: solid 2px gray;
+        border-radius: 20px;
+    }
+    form{
+        padding: 16px;
+    }
 }
 .input{
     height: 32px;
@@ -28,6 +38,7 @@ form{
 }
 h1{
     font-size: 40px;
+    text-align: center;
 }
 option{
     font-size: 20px;
