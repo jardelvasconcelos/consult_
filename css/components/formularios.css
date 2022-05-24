@@ -4,6 +4,15 @@
     font-family: 'Gemunu Libre', sans-serif; 
     font-size: 20px;
 }
+:root{
+    --cor1: #c9431a;
+    --cor2: #ffffff;
+    --cor3: #000000;
+    --cor4: #42414159;
+    --cor5: #e2e1e1;
+    --cor6: #b3a5a588;
+    --cor7: #888686;
+}
 
 main{
     display: flex;
@@ -24,8 +33,11 @@ form{
 }
 @media screen and (max-width: 1023px){
     main{
-        border: solid 2px gray;
+        border: solid 2px rgb(221, 216, 216);
         border-radius: 20px;
+        margin: 10px 0;
+        /* background-color: rgb(117, 109, 230); */
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2));
     }
     form{
         padding: 35px;
@@ -35,6 +47,7 @@ form{
     height: 32px;
     margin: 10px 0px;
     width: 100%;
+    border-radius: 10px;
     
 }
 h1{
