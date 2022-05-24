@@ -33,18 +33,17 @@ form{
 }
 @media screen and (max-width: 1023px){
     main{
-        border: solid 2px rgb(221, 216, 216);
-        border-radius: 20px;
+        /* border: solid 2px rgb(221, 216, 216);
+        border-radius: 20px; */
         margin: 10px 0;
-        /* background-color: rgb(117, 109, 230); */
         background-image: linear-gradient(to right, var(--cor1), var(--cor2));
     }
     form{
-        padding: 35px;
+        padding: 10px;
     }
 }
 .input{
-    height: 32px;
+    height: 40px;
     margin: 10px 0px;
     width: 100%;
     border-radius: 10px;
@@ -73,6 +72,7 @@ button{
     width: auto;
     font-size: 25px;
     font-family: monospace;
+    border-radius: 10px;
 }
 .secao-button{
     display: flex;
@@ -83,6 +83,13 @@ button{
     display: flex;
     justify-content: space-around;
    
+}
+.textarea{
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
 }
 
 
