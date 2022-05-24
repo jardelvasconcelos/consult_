@@ -20,6 +20,7 @@ form{
     width: 100%;
     font-family: sans-serif;
     padding: 16px 0; 
+    
 }
 @media screen and (max-width: 1023px){
     main{
@@ -27,7 +28,7 @@ form{
         border-radius: 20px;
     }
     form{
-        padding: 16px;
+        padding: 35px;
     }
 }
 .input{
@@ -42,6 +43,7 @@ h1{
 }
 option{
     font-size: 20px;
+    font-family: 'Gemunu Libre', sans-serif;
 }
 .radio{
     display: flex;
