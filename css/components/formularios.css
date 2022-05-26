@@ -19,38 +19,34 @@ main{
     flex-direction: column;
     width: 100%;
     max-width: 430px;
-    margin: 30px auto;
+    margin: auto;
     height: 100%;  
    
 }
 form{
     display: flex;
     flex-direction: column;
-    width: 100%;
     font-family: sans-serif;
     padding: 16px 0; 
     
 }
 @media screen and (max-width: 1023px){
-    main{
-        /* border: solid 2px rgb(221, 216, 216);
-        border-radius: 20px; */
-        margin: 10px 0;
-        
-    }
     body{
         background-image: linear-gradient(to right, var(--cor1), var(--cor2));
     }
     form{
         padding: 10px;
+        justify-content: center;
+        align-content: center;
     }
 }
+
 .input{
     height: 60px;
     margin: 10px 0px;
     width: 100%;
     border-radius: 10px;
-    
+    background-color: white; 
 }
 h1{
     font-size: 40px;
