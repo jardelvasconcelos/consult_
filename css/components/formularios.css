@@ -47,6 +47,7 @@ form{
     width: 100%;
     border-radius: 10px;
     background-color: white; 
+    border: solid 1px gray;
 }
 h1{
     font-size: 40px;
@@ -62,16 +63,21 @@ option{
     align-items: center;
     margin: 10px 0;
 }
+label{
+    font-size: 25px;
+    font-weight: bold;
+}
 .secao-datanascimento{
     margin: 10px 0 ;
 }
 button{
-    height: 32px;
+    height: 52px;
     margin: 10px 0px;
     width: auto;
     font-size: 25px;
     font-family: monospace;
     border-radius: 10px;
+    border: solid 1px gray;
 }
 .secao-button{
     display: flex;
@@ -89,6 +95,10 @@ button{
     border-radius: 10px;
     background-color: white;
     color: black;
+    border: solid 1px gray;
+}
+.value-select{
+    font-weight: bold;
 }
 
 
