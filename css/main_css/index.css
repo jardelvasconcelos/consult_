@@ -16,6 +16,7 @@
     font-family: 'Gemunu Libre', sans-serif;
 }
 
+
 .flex-container{
     display: flex;
     justify-content: center;
@@ -64,4 +65,13 @@ img{
 }
 .editor_p{
     font-size: 20px;
+}
+@media screen and (min-width: 710px) {
+    body{
+        background-image: linear-gradient(to right, var(--cor1), var(--cor2)); 
+    }
+    
+    main{
+        margin: 0 200px;
+    }
 }
